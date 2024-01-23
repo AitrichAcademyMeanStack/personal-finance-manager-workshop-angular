@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ExpenseComponent } from './expense/expense.component';
 import { IncomeComponent } from './income/income.component';
+import { SidebarComponent } from '../shared/sidebar/sidebar.component';
 
 
 
@@ -10,7 +11,8 @@ import { IncomeComponent } from './income/income.component';
   declarations: [
     DashboardComponent,
     ExpenseComponent,
-    IncomeComponent
+    IncomeComponent,
+    SidebarComponent
   ],
   imports: [
     CommonModule
