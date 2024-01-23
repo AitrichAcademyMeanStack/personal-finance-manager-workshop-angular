@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: "Nunito", sans-serif;
+        font-size: clamp(1rem, 1.5vw, 1.2rem);
+        color: rgba(34, 34, 96, 0.6);
+        height: 100vh;
+        background-image: url('./assets/img/bg.png');
+        position: relative;
+}
