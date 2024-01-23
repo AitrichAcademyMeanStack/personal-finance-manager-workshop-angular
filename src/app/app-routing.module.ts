@@ -7,7 +7,7 @@ import { ExpenseComponent } from './home/expense/expense.component';
 
 const routes: Routes = [
   {
-    path: 'dashboard',
+    path: '',
     component: DashboardComponent,
   },
   { path: 'income', component: IncomeComponent },
