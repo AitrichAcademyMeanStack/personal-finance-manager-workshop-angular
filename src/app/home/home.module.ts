@@ -5,20 +5,14 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { ExpenseComponent } from './expense/expense.component';
 import { IncomeComponent } from './income/income.component';
 import { SharedModule } from '../shared/shared.module';
+import { HomeRoutingModule } from './home-routing.module';
+import { TransactionsComponent } from './components/transactions/transactions.component';
 
 
 
 
 @NgModule({
-  declarations: [
-    DashboardComponent,
-    ExpenseComponent,
-    IncomeComponent,
-  ],
-  imports: [
-    CommonModule,
-    SharedModule
-  
-  ]
+  declarations: [DashboardComponent, ExpenseComponent, IncomeComponent, TransactionsComponent],
+  imports: [CommonModule, SharedModule, HomeRoutingModule],
 })
-export class HomeModule { }
+export class HomeModule {}
