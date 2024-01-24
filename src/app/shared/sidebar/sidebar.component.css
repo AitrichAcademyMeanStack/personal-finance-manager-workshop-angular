@@ -63,7 +63,7 @@
     list-style-type: none; 
 }
 
-.menu li {
+.menu li , a {
     text-decoration: none;
     font-size: 19px;
     margin-top: 20px;
