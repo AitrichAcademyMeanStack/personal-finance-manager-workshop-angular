@@ -1,10 +1,18 @@
-/* .dashboard {
-  background: #fcf6f9;
-  border: 2px solid #ffffff;
-  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.06);
-  border-radius: 20px;
-  padding: 1rem;
-}
+  .dashboard {
+    padding: 2rem;
+      height: 100%;
+      display: flex;
+      gap: 2rem;
+      flex: 1;
+      background: rgba(252, 246, 249, 0.78);
+      border: 3px solid #FFFFFF;
+      backdrop-filter: blur(4.5px);
+      border-radius: 32px;
+      overflow-x: hidden;
+      &::-webkit-scrollbar{
+        width: 0;
+      }
+  }
 .dashboard .stats-con {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -93,7 +101,3 @@
   border-radius: 20px;
   height: 100%;
 }
-.dashboard .innerLayout {
-  padding: 1rem 1.5rem;
-  width: 100%;
-} */
