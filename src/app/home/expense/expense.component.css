@@ -82,10 +82,10 @@ select ::placeholder {
         width: 100%;
     }
 } */
-.content {
+/* .content {
   display: flex;
   overflow: auto;
-}
+} */
 
 button {
   outline: none;
@@ -114,4 +114,19 @@ button {
   --bs-border-radius: 20px;
   --bs-btn-bg: #f56692 !important;
   --bs-btn-border-color: #f56692 !important;
+}
+
+  .globalLayout {
+      padding: 2rem;
+      height: 100%;
+      display: flex;
+      gap: 2rem;
+  }
+
+.innerLayout{
+   padding: 2rem 1.5rem;
+    width: 100%;
+    /* max-width: max-content; */
+    /* overflow: scroll; */
+    /* height: 500px; */
 }
