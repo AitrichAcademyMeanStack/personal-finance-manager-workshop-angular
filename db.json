@@ -1,0 +1,13 @@
+{
+  "expense": [
+    {
+      "id": "2e28",
+      "title": "Food",
+      "amount": 830,
+      "date": "2024-02-22",
+      "category": "travelling",
+      "description": "Dinner"
+    }
+  ],
+  "income": []
+}
